@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex2 Form</title>
+</head>
+<body>
+    <form action="tw@alunos.isec.pt" method="post">
+        <h1>Your stuff, anywhere</h1>
+        <fieldset><legend>My Profile</legend>
+            <Input placeholder="First Name" maxlength="20" autofocus required></Input><br><br>
+            <Input placeholder="Last Name" required></Input><br><br>
+            <input type="email" placeholder="Email" required></input><br><br>
+            <input type="password" placeholder="Password" pattern="[A-Za-z]{3}[0-9]{3}" required><br><br>
+        </fieldset>
+            <textarea name="comment" id="comment" cols="30" rows="3" placeholder="Enter text here..." maxlength="150"></textarea><br>
+            <select name="plan" id="plan">
+                <option value="Base">Base  Plan</option>
+                <option value="Intermidiate">Intermidiate Plan</option>
+                <option value="Premium">Premium Plan</option>
+        </select>
+        <input type="checkbox" name="agree" id="agree" value="1" required>I Agree to Dropbox terms <br><br>
+        <input type="button" value="sign up">
+    </form>
+</body>
+</html>
