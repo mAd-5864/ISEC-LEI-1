@@ -1,0 +1,11 @@
+body{
+    background-color: #ddd;
+}
+h1{
+    font-style: italic;
+    color: #158AC4;
+    text-transform: uppercase;
+}
+p{
+    color: #666;
+}
