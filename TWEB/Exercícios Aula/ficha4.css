@@ -1,0 +1,45 @@
+body{
+    font-family: Georgia;
+    color: #434027;
+}
+#TW{
+    border: solid 5px #C7C2A1;
+    background-color: #FCFCF5;
+    text-align: justify;
+    padding: 0 10px;
+}
+p em{
+    text-decoration: underline;
+}
+.box-conteudo{
+    margin: 30px 10px 20px 0;
+    padding: 10px;
+    border: 1px inset #C7C2A1;
+    background-color: #F3F1DC;
+}
+div.box-conteudo h1{
+    font-size: 20px;
+    margin: 0;
+}
+ul#teorica>:first-child{
+    font-style: italic;
+    font-weight: bold;
+}
+p::first-letter{
+    font-size: 30px;
+}
+a:link, a:visited{
+    color: #000;
+}
+a:hover{
+    background-color: #FF7C35;
+    text-decoration: none;
+}
+[class|=destaque]{
+    color: red;
+}
+a[href^=mailto]:hover{
+    color: #FFF;
+}
+a[href^=mailto]::before{content: "<";}
+a[href^=mailto]::after{content: ">";}
