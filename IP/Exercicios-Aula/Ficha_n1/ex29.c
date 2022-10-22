@@ -24,6 +24,6 @@ while(peso>=0){
     printf("Total: %.0fkg\n",peso_total);
 };
     media = peso_total/i;
-    printf("A pessoa mais pesada abaixo de 60kg pesa: %.0fkg\n", peso_max);
+    printf("\nA pessoa mais pesada abaixo de 60kg pesa: %.0fkg\n", peso_max);
     printf("A media de peso das pessoas acima de 60kg é: %.2fkg\n", media);
 }
