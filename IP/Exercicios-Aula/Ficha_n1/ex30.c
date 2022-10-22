@@ -15,5 +15,5 @@ int main()
         /*     printf("A:%d\n", A);
             printf("B:%d\n", B); */
     };
-    printf("Demorou %d anos", ano);
+    printf("Demorou %d anos a igualar as populaçôes \n", ano);
 }
