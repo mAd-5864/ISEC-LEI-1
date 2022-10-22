@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
 
-float raio;
-float per;
-float area;
-const float pi=3.14159
+    float raio, per, area;
+    const float pi = 3.14159;
 
-scanf("Introduza um valor: %f", raio);
+    printf("Introduza um valor:");
+    scanf("%f", &raio);
 
-per = 2*pi*raio;
-area = pi*r^2;
+    per = 2 * pi * raio;
+    area = pi * (raio * raio);
 
-printf("Perimetro: %.2f\n",per);
-printf("Area: %.2f\n",area);
+    printf("\nPerimetro: %.2f\n", per);
+    printf("Area: %.2f\n", area);
 }
