@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <math.h>
+int coinCount(int* a, int* b, int c){
+    *b = *a / c;
+    *a = *a % c;
+}
 
 
 int main()
@@ -11,13 +15,9 @@ int main()
     scanf("%lf", &quantia);
     quantiaInt=quantia*100;
 
-
-    coin50 = quantiaInt / 50;
-    quantiaInt = quantiaInt % 50;
-    coin20 = quantiaInt / 20;
-    quantiaInt = quantiaInt % 20;
-    coin5 = quantiaInt / 5;
-    quantiaInt = quantiaInt % 5;
+    coinCount(&quantiaInt, &coin50, 50);
+    coinCount(&quantiaInt, &coin20, 20);
+    coinCount(&quantiaInt, &coin5, 5);
     coin1=quantiaInt;
 
      printf("\nMoedas 50c - %d\nMoedas 20c - %d\nMoedas 5c - %d\nMoedas 1c - %d\n", coin50, coin20, coin5, coin1);
