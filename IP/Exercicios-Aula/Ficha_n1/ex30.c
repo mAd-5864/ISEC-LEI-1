@@ -9,11 +9,9 @@ int main()
     int ano = 0;
     while (A < B)
     {
-        A = A + (A * taxaA);
-        B = B + (B * taxaB);
+        A +=(A * taxaA);
+        B += (B * taxaB);
         ano++;
-        /*     printf("A:%d\n", A);
-            printf("B:%d\n", B); */
     };
     printf("Demorou %d anos a igualar as populaçôes \n", ano);
 }
