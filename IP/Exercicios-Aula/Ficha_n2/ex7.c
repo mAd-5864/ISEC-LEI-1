@@ -20,7 +20,7 @@ int main()
     {
         freq1 *= 0.4;
         freq2 *= 0.4;
-        tp = (tp / (float)5) * 0.2;
+        tp = (tp / 5.) * 0.2;
 
         notaFinal = freq1 + freq2 + tp;
 
