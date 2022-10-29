@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: verdana;
+}
+#global{
+    color: #fff;
+    background-color: #505160BB;
+    padding: 0.8em;
+}
+#curso{
+    background-color: #68829E;
+    padding: 1em;
+    border-radius: 1em;
+}
+#curso h2{
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+}
+#curso label{
+    font-size: 1.2em;
+    font-weight: 200;
+    padding-top: 0.8em;
+    display: block;
+}
+#curso input{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    font-weight: 200;
+    padding: 0.8em;
+    border: solid 0.05em #fff;
+    border-radius: 0.4em;
+}
+#curso #teste{
+    border: none;
+    background-color: #AEBD38BB;
+    color: #fff;
+    margin-top: 1.5em;
+    padding: 0.8em;
+    font-size: 1.5em;
+}
+#rodape{
+    background-color: #505160BB;
+    color: #fff;
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 1.5em;
+    padding: 0.8em;
+}
+@media screen and (min-width: 600px){
+    .conteudo{
+        width: 50%;
+        margin:  auto;
+        overflow: auto;
+        clear: both;
+    }
+    #principios{
+        width: 50%;
+        box-sizing: border-box;
+        padding-right: 10px;
+        font-size: 18px;
+        font-weight: 200;
+        float: left;
+    }
+    #curso{
+        box-sizing: border-box;
+        padding: 20px;
+        float: right;
+        background-color: #AEBD38BB;
+    }
+    #curso #teste{
+        background-color: #68829E;
+    }
+}
