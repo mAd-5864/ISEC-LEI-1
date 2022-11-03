@@ -1,0 +1,44 @@
+
+    *,
+    *::after, *::before {
+      margin: 0;
+      padding: 0;
+    }
+    body {  
+      font-family: Verdana, Tahoma, sans-serif; 
+      color: #27190a;
+      font-size: 90%;
+    }
+	
+    /*  nav  menu  */
+    nav{
+        background-color: #BD966D;
+        opacity: 0.7;
+	}
+	
+	/* Footer */
+	footer {
+		background-color: #BD966D;
+		display: flex;
+	}
+	footer a {      
+        padding: 7px 10px;
+        color: white;
+        text-decoration: none;
+      }
+	  
+	/* Menu */
+    .menu li {
+      padding: 7px 10px;
+      list-style-type: none;
+    }
+       
+	.menu {
+		display: flex;
+	}
+	
+	.menu > *:last-child
+	{
+		margin-left: auto;
+	}
+       
