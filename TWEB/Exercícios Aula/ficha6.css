@@ -1,29 +1,34 @@
-body{
+body {
     margin: 0;
     font-family: verdana;
 }
-#global{
+
+#global {
     color: #fff;
     background-color: #505160BB;
     padding: 0.8em;
 }
-#curso{
+
+#curso {
     background-color: #68829E;
     padding: 1em;
     border-radius: 1em;
 }
-#curso h2{
+
+#curso h2 {
     font-weight: 100;
     padding: 0;
     margin: 0;
 }
-#curso label{
+
+#curso label {
     font-size: 1.2em;
     font-weight: 200;
     padding-top: 0.8em;
     display: block;
 }
-#curso input{
+
+#curso input {
     width: 100%;
     box-sizing: border-box;
     font-size: 1.1em;
@@ -32,7 +37,8 @@ body{
     border: solid 0.05em #fff;
     border-radius: 0.4em;
 }
-#curso #teste{
+
+#curso #teste {
     border: none;
     background-color: #AEBD38BB;
     color: #fff;
@@ -40,7 +46,8 @@ body{
     padding: 0.8em;
     font-size: 1.5em;
 }
-#rodape{
+
+#rodape {
     background-color: #505160BB;
     color: #fff;
     font-size: 1.4em;
@@ -48,28 +55,44 @@ body{
     margin-top: 1.5em;
     padding: 0.8em;
 }
-@media screen and (min-width: 600px){
-    .conteudo{
+
+@media screen and (min-width: 600px) {
+    .conteudo {
         width: 50%;
-        margin:  auto;
+        margin: 0 auto;
         overflow: auto;
         clear: both;
+        border: 3px solid red;
     }
-    #principios{
+
+    #principios {
         width: 50%;
         box-sizing: border-box;
         padding-right: 10px;
+        margin: 0px;
         font-size: 18px;
         font-weight: 200;
         float: left;
+        border: 3px solid #ccc;
     }
-    #curso{
+
+    #curso {
+        width: 50%;
         box-sizing: border-box;
         padding: 20px;
         float: right;
+        margin: 0px;
         background-color: #AEBD38BB;
     }
-    #curso #teste{
+
+    #curso #teste {
         background-color: #68829E;
     }
+
+}
+
+#global::after {
+    content: "";
+    clear: both;
+    display: table;
 }
