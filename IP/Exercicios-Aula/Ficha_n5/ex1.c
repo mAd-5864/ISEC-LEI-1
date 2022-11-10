@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int squareRoot(float n)
+float squareRoot(float n)
 {
     return n * n;
 }
