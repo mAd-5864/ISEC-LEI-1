@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int getspeed(int km_per, float time)
+float getspeed(int km_per, float time)
 {
     time = (((int)time * 60) + ((time - (int)time) * 100)) / 60;
     return km_per / time;
