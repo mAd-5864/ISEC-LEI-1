@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-int getspeed(int km_per, float time, float *speed)
+int getspeed(int km_per, float time)
 {
     time = (((int)time * 60) + ((time - (int)time) * 100)) / 60;
-    *speed = km_per / time;
-    return *speed;
+    return km_per / time;
 }
 void main()
 {
@@ -25,8 +24,7 @@ void main()
             printf("\nTrajeto %.2d", t);
             printf("\nQuilometros percorridos e tempo decorrido > ");
             scanf("%d %f", &km_per, &time);
-            getspeed(km_per, time, &speed);
-            avg_speed += speed;
+            speed = getspeed(km_per, time);
             if (speed < 30)
             {
                 printf("Abaixo do limite minimo = %.2f\n", speed);
@@ -39,6 +37,7 @@ void main()
             {
                 printf("Velocidade no trajeto = %.2f\n", speed);
             }
+            avg_speed += speed;
         }
         printf("\nVelocidade media do funcionario = %.2f\n", avg_speed / --t);
     }
