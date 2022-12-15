@@ -31,14 +31,7 @@ void main(){
     for ( i = N-1; i >= 0; i--)
     {
         soma=a[i]+b[i]+ant;
-        if (soma>9)
-        {
-            ant=1;
-        }
-        else
-        {
-            ant=0;
-        }
+        ant=soma>9;
         s[i]=soma%10;
     }
     printf("\n");
