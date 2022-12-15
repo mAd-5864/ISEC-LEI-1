@@ -28,7 +28,7 @@ void main(){
     {
         b[i]=obtemDigito(i);
     }
-    for ( i = N-1; i > 0; i--)
+    for ( i = N-1; i >= 0; i--)
     {
         soma=a[i]+b[i]+ant;
         if (soma>9)
