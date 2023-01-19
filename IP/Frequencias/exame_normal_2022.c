@@ -3,20 +3,17 @@
 
 int alteraFrase(char s[])
 {
-    int occ = 0;
-    for (int i = 0; i<N; i++)
-    {
-        if (s[i] == 'c' && s[i + 1] == 'h')
-        {
+    int i, occ = 0;
+    for (i = 0; s[i]!='\0'; i++) {
+        if (s[i] == 'c' && s[i + 1] == 'h') {
             s[i - occ] = 'x';
             i++;
             occ++;
-        }
-        else
-        {
+        } else {
             s[i - occ] = s[i];
         }
     }
+    s[i-occ] = '\0';
     return occ;
 }
 void main()
