@@ -6,9 +6,7 @@ int alteraFrase(char s[])
     int occ = 0;
     for (int i = 0; s[i-1]!='\0'; i++) {
         if (s[i] == 'c' && s[i + 1] == 'h') {
-            s[i - occ] = 'x';
-            i++;
-            occ++;
+            s[i++ - occ++] = 'x';
         } else {
             s[i - occ] = s[i];
         }
