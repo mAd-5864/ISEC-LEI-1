@@ -3,8 +3,8 @@
 
 int alteraFrase(char s[])
 {
-    int i, occ = 0;
-    for (i = 0; s[i]!='\0'; i++) {
+    int occ = 0;
+    for (int i = 0; s[i-1]!='\0'; i++) {
         if (s[i] == 'c' && s[i + 1] == 'h') {
             s[i - occ] = 'x';
             i++;
@@ -13,7 +13,6 @@ int alteraFrase(char s[])
             s[i - occ] = s[i];
         }
     }
-    s[i-occ] = '\0';
     return occ;
 }
 void main()
