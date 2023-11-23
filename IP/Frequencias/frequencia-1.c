@@ -7,7 +7,7 @@ int main()
 
     while (fichas_ocu < 5 && carga_ocu < 200)
     {
-        printf("Ficha %d introduza entre 20 e 50: ", fichas_ocu + 1);
+        printf("Ficha %d introduza entre 20 e 50: ", fichas_ocu++);
         scanf("%d", &carga);
 
         if (carga >= 20 && carga <= 50)
@@ -17,7 +17,9 @@ int main()
                 printf("Quantidade Indisponivel.\n");
                 carga = 200 - carga_ocu;
             }
-            carga_ocu += carga;
+
+
+            carga_ocu = carga_ocu + carga;
             fichas_ocu++;
             tempoCarga = 1.35 * carga;
             mediaCarga = carga_ocu / (float)fichas_ocu;
