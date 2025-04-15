@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="out">
+            <div id="in">Click</div>
+        </div>
+        <script>
+            document.getElementById("out").addEventListener("click", function (event) {
+                console.log("out");
+            });
+            document.getElementById("in").addEventListener("click", function (e) {
+                console.log("in");
+                e.stopPropagation();
+            });
+        </script>
+    </body>
+</html>

@@ -23,9 +23,9 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="2.2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2eKEP5fE4GQh5PmwOljrHvdfMYE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,6 +40,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/pepas/OneDrive/Desktop/VS Code/ISEC/TP-POO/SimDeserto",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -52,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711644842548</updated>
       <workItem from="1711644844165" duration="7000" />
+      <workItem from="1732835962290" duration="56000" />
     </task>
     <servers />
   </component>

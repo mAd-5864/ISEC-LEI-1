@@ -1,0 +1,72 @@
+Exame Normal LS 23/24
+
+1. Compilação linha a linha
+
+2. tende a ser mais lenta quando comparada com uma linguagem compilada
+
+3. otimizar a execução do código
+
+4. permitem uma maior flexibilidade na escrita de código
+
+5. a linguagem converte de forma automática um tipo de dado para outro tipo durante uma operação
+
+6. O JavaScript é executado no navegador quando um engine se encontra ativado
+
+7. Movimento da declaração de variáveis e funções para o topo do seu scope antes da execução
+
+8. 1+44
+
+9. Converter o código JS de forma a assegurar a sua compatibilidade com browsers antigos
+
+10. out in
+
+11. O bloco de código anterior contém varias funções callback
+
+12. [false, true, false, true, false, true]
+
+13. (coisaQualquer) => return console.log(coisaQualquer)
+
+14. tem uma function expression
+
+15. ['Amarelo escuro', 'Azul escuro', 'Vermelho escuro']
+
+16. O Estado obtido será o antigo estado antes da atualização
+
+17. [1, 4, 5]
+
+18. [2, 3, 4, 5]
+
+19. 2 1
+
+20. É apresentado um erro na consola
+
+
+21. Todas as opções apresentam o mesmo output
+
+22. Exame Normal de LS
+
+23. Ao substituir a ultima linha por const ex= new Exame('LS', 'Normal') o output sera igual
+
+24. JSX permite combinar código JS com sintaxe semelhante ao HTML
+
+25. o useEffect,  desde que corretamente parametrizado, quando se trata de um componente funcional
+
+26. Hello, disciplina!
+
+27. Para passar valores de estado de um componente filho para um componente pai podemos recorrer a funções callback
+
+28. npm install e depois npm start
+
+29. 4
+
+30. import ExameComp2, {ExameComp1} from './exame.js'
+
+31. Começou! Clique para iniciar
+
+32. Nao acontece nada
+
+33. Passou0
+
+34. Aguardar...
+
+35. Passou2 Passou3 Passou1
